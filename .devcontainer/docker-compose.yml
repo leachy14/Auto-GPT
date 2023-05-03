@@ -16,4 +16,4 @@ services:
     volumes:
       - ../:/workspace/Auto-GPT
   redis:
-    image: 'redis/redis-stack-server:latest'
+    image: 'redislabs/redisearch:latest'
